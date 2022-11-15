@@ -10,7 +10,7 @@ const Infocard = () => {
         {
             id: 1,
             name: "Opening Hours",
-            details: "Our Opening Hours is 9 AM to 9 PM",
+            details: "Our Opening Hours is 9 am to 9 pm",
             bgColor: "bg-gradient-to-r from-accent to-info",
             icon: clock
         },

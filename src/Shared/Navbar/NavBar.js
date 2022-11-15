@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 const NavBar = () => {
 
     const manuItems = <>
-        <li><Link to='/home'>Home</Link></li>
-        <li><Link to='/about'>About</Link></li>
-        <li><Link to='/appointment'>Appointment</Link></li>
-        <li><Link to='/reviews'>Reviews</Link></li>
-        <li><Link to='/contactUs'>Contact Us</Link></li>
+        <li><Link to='/home' className='rounded-xl  hover:text-info hover:scale-110 bg-transparent'>Home</Link></li>
+        <li><Link to='/about' className='rounded-xl  hover:text-info hover:scale-110 bg-transparent'>About</Link></li>
+        <li><Link to='/appointment' className='rounded-xl  hover:text-info hover:scale-110 bg-transparent'>Appointment</Link></li>
+        <li><Link to='/reviews' className='rounded-xl  hover:text-info hover:scale-110 bg-transparent'>Reviews</Link></li>
+        <li><Link to='/contactUs' className='rounded-xl  hover:text-info hover:scale-110 bg-transparent'>Contact Us</Link></li>
     </>
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -21,7 +21,7 @@ const NavBar = () => {
                         {manuItems}
                     </ul>
                 </div>
-                <Link className="btn btn-ghost normal-case text-xl">Doctors Portal</Link>
+                <Link className="font-bold normal-case text-xl ml-10 hover:scale-110 bg-transparent  ">Doctors Portal</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
