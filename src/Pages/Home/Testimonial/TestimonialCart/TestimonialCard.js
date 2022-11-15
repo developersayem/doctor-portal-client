@@ -9,8 +9,8 @@ const TestimonialCard = ({ data }) => {
                 <p>{details}</p>
             </figure>
             <div className=" flex ml-4">
-                <div className='m-5'>
-                    <img src={icon} alt="Shoes" style={{ width: "3rem" }} className="rounded-xl" />
+                <div className='m-5 border rounded-full border-accent'>
+                    <img src={icon} alt="Shoes" style={{ width: "3rem" }} className="rounded-xl p-1" />
                 </div>
                 <div className='mt-5'>
                     <h2 className="card-title">{name}</h2>
